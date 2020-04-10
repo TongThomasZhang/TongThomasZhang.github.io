@@ -1,0 +1,131 @@
+body{
+    font-family: "Trebuchet MS",Helvetica,sans-serif;
+    text-align: left;
+    color: #999999;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+header{
+    background-color: #ffffff;
+    color: #1d2120;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #f79f79;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: #f79f79;
+   /*background-color: #f79f79;
+   color: #ffffff;*/
+}
+
+.heading {
+    text-align: center;
+}
+
+.jumbo {
+    padding-top: 10%;
+    padding-left:10%;
+    display: flex;
+    text-align: left;
+    background-color: #ffffff;
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #999999;
+}
+
+.image {
+    text-align: left;
+}
+
+#me {
+    text-align: left;
+    text-decoration: none;
+}
+
+.internalLink {
+    color: #4aabe0;
+    text-decoration: none;
+}
+
+.internalLink:hover {
+    color:#f79f79;
+    text-decoration: none;
+}
+
+#hello {
+    font-size: 30px;
+    text-decoration: none;
+    text-align: left;
+    color: #000000;
+}
+
+.fa {
+    color: #999999;
+    margin: 10px;
+}
+
+#email:hover {
+    color: #f79f79;
+}
+
+#github:hover {
+    color: #333;
+}
+
+#linkedin:hover {
+    color: #0077b5;
+}
+
+#facebook:hover {
+    color: #3b5998;
+}
+
+.fa:hover {
+    color: #f79f79;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icon {
+    text-align: center;
+    position: center;
+}
+
+.icon:hover{
+    text-decoration: none;
+}
+
+.logo a{
+    text-decoration:none;
+    font-size: 20px;
+    color: #f79f79;
+}
+.logo a:hover{
+    text-decoration: none;
+    color: inherit;
+}
